@@ -23,8 +23,6 @@ L’objectif principal était de mettre en pratique les notions de **HTML** et *
 - **Vidéo & images** : médias intégrés pour enrichir l’expérience utilisateur.  
 - **Git & GitHub** : versionnement et hébergement du projet.  
 
-> Aucun framework ou JavaScript n’a été utilisé pour respecter les consignes du TP.  
-
 ---
 
 ## Installation et utilisation
