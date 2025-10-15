@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ImmoFR - Immobilier</title>
+  <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="header-container">
+       <div class="logo-container">
+        <img src="assets/logo.png" alt="Logo Propero" class="logo">
+        <span class="site-name">ImmoFR</span>
+     </div>
+      <nav>
+        <ul>
+          <li><a href="#">À vendre</a></li>
+          <li><a href="#">À louer</a></li>
+          <li><a href="#">Nouveautés</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-buttons">
+        <a href="#" class="login">Connexion</a>
+        <a href="#" class="register">Inscription</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- SECTION HERO AVEC LA VIDÉO -->
+  <section class="hero">
+    <video autoplay muted loop class="background-video">
+      <source src="assets/video-bg.mp4" type="video/mp4">
+    </video>
+
+    <div class="hero-content">
+      <h1>Découvrez votre futur logement facilement</h1>
+      <p>ImmoFR vous aide à trouver la maison idéale pour une vie meilleure</p>
+
+      <form class="search-bar">
+        <select>
+          <option>À vendre</option>
+          <option>À louer</option>
+        </select>
+        <select>
+          <option>Type de bien</option>
+          <option>Maison</option>
+          <option>Appartement</option>
+        </select>
+        <input type="text" placeholder="Rechercher une ville ou un projet">
+        <button type="submit">Rechercher</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- SECTION DES AVANTAGES -->
+  <section class="features">
+    <h2>Pourquoi choisir ImmoFR ?</h2>
+    <p>Nous rendons la recherche de votre maison simple, rapide et sécurisée.</p>
+
+    <div class="features-container">
+      <div class="feature">
+        <img src="assets/icon-location.png" alt="Expertise locale">
+        <h3>Expertise locale</h3>
+        <p>Nos agents connaissent chaque quartier pour vous conseiller au mieux.</p>
+      </div>
+      <div class="feature">
+        <img src="assets/icon-quality.png" alt="Biens de qualité">
+        <h3>Biens de qualité</h3>
+        <p>Toutes nos annonces sont vérifiées et respectent nos critères exigeants.</p>
+      </div>
+      <div class="feature">
+        <img src="assets/icon-support.png" alt="Accompagnement">
+        <h3>Accompagnement personnalisé</h3>
+        <p>De la visite à la signature, nous vous accompagnons à chaque étape.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION DES BIENS IMMOBILIERS -->
+  <section class="properties">
+    <h2>Nos biens à la une</h2>
+    <p>Découvrez nos biens immobiliers les plus populaires actuellement disponibles.</p>
+
+    <div class="properties-container">
+      <div class="property-card">
+        <img src="assets/property1.jpg" alt="Maison moderne">
+        <h3>Maison familiale moderne</h3>
+        <p>Grande maison 3 chambres avec jardin et piscine.</p>
+        <p class="price">450 000 €</p>
+        <a href="#" class="btn">Voir le bien</a>
+      </div>
+
+      <div class="property-card">
+        <img src="assets/property2.jpg" alt="Appartement centre-ville">
+        <h3>Appartement en centre-ville</h3>
+        <p>Appartement 2 chambres avec balcon et vue panoramique.</p>
+        <p class="price">320 000 €</p>
+        <a href="#" class="btn">Voir le bien</a>
+      </div>
+
+      <div class="property-card">
+        <img src="assets/property3.jpg" alt="Villa de luxe">
+        <h3>Villa de luxe</h3>
+        <p>Superbe villa 5 chambres avec vue sur mer et garage privé.</p>
+        <p class="price">1 200 000 €</p>
+        <a href="#" class="btn">Voir le bien</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION DES TÉMOIGNAGES -->
+  <section class="testimonials">
+    <h2>Ce que disent nos clients</h2>
+    <p>Des milliers de clients satisfaits ont trouvé leur bonheur avec ImmoFR.</p>
+
+    <div class="testimonials-container">
+      <div class="testimonial">
+        <img src="assets/client1.jpg" alt="Client 1">
+        <p>"Grâce à ImmoFR, j'ai trouvé la maison de mes rêves en moins d’un mois !"</p>
+        <h4>- Marie Dupont</h4>
+      </div>
+      <div class="testimonial">
+        <img src="assets/client2.jpg" alt="Client 2">
+        <p>"Une équipe très professionnelle, réactive et à l’écoute. Je recommande !"</p>
+        <h4>- Ahmed Benali</h4>
+      </div>
+      <div class="testimonial">
+        <img src="assets/client3.jpg" alt="Client 3">
+        <p>"Ils m’ont accompagnée à chaque étape de l’achat. Parfait !"</p>
+        <h4>- Léa Martin</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION APPEL À L’ACTION -->
+  <section class="cta">
+    <h2>Prêt à trouver votre nouveau chez-vous ?</h2>
+    <p>Nos agents sont disponibles pour vous aider dès aujourd’hui.</p>
+    <a href="#" class="btn">Contacter un agent</a>
+  </section>
+
+  <!-- PIED DE PAGE -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-about">
+        <img src="assets/logo.png" alt="Logo ImmoFR">
+        <p>ImmoFR, votre partenaire immobilier de confiance pour trouver le logement idéal.</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Liens rapides</h4>
+        <ul>
+          <li><a href="#">Avantages</a></li>
+          <li><a href="#">Biens</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p>Email : contact@ImmoFR.com</p>
+        <p>Tél : +33 1 23 45 67 89</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 ImmoFR. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
